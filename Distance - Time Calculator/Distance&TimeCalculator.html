@@ -15,7 +15,7 @@
 		
 		function initialize() {
 			directionsDisplay = new google.maps.DirectionsRenderer();
-			var city = new google.maps.LatLng(19.0760, 72.8777);
+			var city = new google.maps.LatLng(19.0760, 72.8777); //Coordinates for Mumbai, India
 			var myOptions = {
 				zoom:12,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -35,14 +35,14 @@
 			var request = {
 				origin:start, 
 				destination:end,
-				travelMode: google.maps.DirectionsTravelMode.DRIVING
+				travelMode: google.maps.DirectionsTravelMode.DRIVING	//For Driving
 			};
 			
 			directionsService.route(request, function(response, status) {
 				if (status == google.maps.DirectionsStatus.OK) {
 					directionsDisplay.setDirections(response);
 					distanceInput.value = response.routes[0].legs[0].distance.value / 1000;
-					timeInput.value = response.routes[0].legs[0].distance.value / 1000;
+					timeInput.value = directionsDisplay.directions.routes[0].legs[0].duration.text;
 				}
 			});
 		}
