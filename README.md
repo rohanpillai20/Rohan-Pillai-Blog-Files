@@ -1,5 +1,5 @@
 # Rohan-Pillai-Blog-Files
-This repository contains all the files I have written a tutorial about in my blog - https://rohanpillai.weebly.com/.
+This repository contains all the files I have written a tutorial about in my blog - https://rohanpillai.weebly.com/blog/.
 
 Contents:
 1) PDF_Generator - Generate PDF using only Java (Developed in NetBeans 8.2).
