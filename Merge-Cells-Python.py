@@ -63,6 +63,7 @@ ws=wb.active
 
 rowInd=1
 colInd=1
+colList=['-', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H','I'] # Continue if there are more columns
 
 print("")
 
