@@ -7,3 +7,4 @@ Contents:
 3) LoginUsingStruts - Create a Login form using Struts 2 Framework (Developed in NetBeans 8.2)
 4) Distance - Time Calculator - Use Google Maps API to calculate Distance and Time between 2 points in your website.
 5) Remote Method Invocation (RMI) in Java - Build a distributed application.
+6) Merge-Cells-Python: This is a Python program that demonstrates how to merge cells that have a similar value in Excel. This was created to answer a questio on StackOverflow. Link.
