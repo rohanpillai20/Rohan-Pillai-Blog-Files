@@ -1,3 +1,9 @@
+""" 
+This was created to answer a question on StackOverflow. 
+Link: https://stackoverflow.com/questions/51172234/merging-values-in-dataframe-to-write-in-excel/51187298
+"""
+
+
 # Import Files
 import pandas as pd
 from openpyxl.workbook import Workbook
