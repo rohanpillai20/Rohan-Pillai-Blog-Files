@@ -32,8 +32,7 @@ Output:
 
 # To identify the repeating values
 for i in df.columns:
-    for j in range(len(df[i])):
-        indf=0
+    for j in range(len(df[i])):        
         for k in range(j+1,len(df[i])):
             if df[i][j]== df[i][k]:                
                 df[i][k]='-' 
